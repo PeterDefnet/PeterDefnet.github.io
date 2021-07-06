@@ -7,5 +7,7 @@ redirect_from:
   - /hobbies
 ---
 
+{% include base_path %}
+
 * Hobbies
 
