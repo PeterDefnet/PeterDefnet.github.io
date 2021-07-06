@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "hobbies"
+title: "Hobbies"
 permalink: /hobbies/
 author_profile: true
 redirect_from:
@@ -9,5 +9,6 @@ redirect_from:
 
 {% include base_path %}
 
-* Hobbies
+* (hobbies.md)
+
 

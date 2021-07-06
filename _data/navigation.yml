@@ -1,22 +1,24 @@
 # main links links
 main:
-  - title: "Publications"
-    url: /publications/
 
-  - title: "Talks"
-    url: /talks/    
-
-  - title: "Teaching"
-    url: /teaching/    
-    
   - title: "Portfolio"
     url: /portfolio/
+
+  - #title: "Resume"
+    #url: /resume/
         
   - title: "Blog Posts"
     url: /year-archive/
     
-  - title: "hobbies"
+  - title: "Hobbies"
     url: /hobbies/
     
-  #- title: "Guide"
-    #url: /markdown/
+
+
+#Removed from template:
+  - #title: "Talks"
+    #url: /talks/    
+
+  - #title: "Teaching"
+    #url: /teaching/    
+    
