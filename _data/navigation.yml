@@ -18,5 +18,5 @@ main:
   - title: "hobbies"
     url: /hobbies/
     
-  - title: "Guide"
-    url: /markdown/
+  #- title: "Guide"
+    #url: /markdown/
