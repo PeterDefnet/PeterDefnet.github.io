@@ -1,15 +1,15 @@
 ---
 layout: archive
-title: "Other Interests"
-permalink: /hobbies/
+title: "Resume"
+permalink: /resume/
 author_profile: true
 redirect_from:
-  - /hobbies
+  - /resume
 ---
 
 {% include base_path %}
 
-* (hobbies.md)
+* (resume.pdf)
 
 
 #
