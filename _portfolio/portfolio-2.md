@@ -74,25 +74,16 @@ The image is then inverted (Figure #) to make each electrode white on a black ba
 
 
 <p align="center">
-<img src="{{ site.url }}{{ site.baseurl }}/images/Spatial Map Images/Figure 3; Inverted.jpg" alt="Inverted Frame" width="300">
+<img src="{{ site.url }}{{ site.baseurl }}/images/Spatial Map Images/New Figure 2;.jpg" alt="Inverted Frame" width="600">
 </p>
 
 <p align="center">
 
-Figure 3: Inverted Frame
+Figure 2: Inverted Frame (Left), Thresholded Image (Right)
 
 </p>
 
 
-<p align="center">
-<img src="{{ site.url }}{{ site.baseurl }}/images/Spatial Map Images/Figure 4; Threshold.jpg" alt="Threshold Frame" width="300">
-</p>
-
-<p align="center">
-
-Figure 4: Inverted Frame
-
-</p>
 
 
 
@@ -123,7 +114,7 @@ The labeled values are visualized below with a sequential colormap.
 
 <p align="center">
 
-Figure 5: ROI Labeled Image
+Figure 3: ROI Labeled Image
 
 </p>
 
@@ -138,7 +129,7 @@ Next, we analyze each trace, and identify the frame in which the light turns on.
 
 <p align="center">
 
-Figure 6: Mapping Electrocatalyst Activities
+Figure 4: Mapping Electrocatalyst Activities
 
 </p>
 
@@ -156,7 +147,7 @@ Lastly, I plot the KDE summarizing these values, for a more quantitative interpr
 
 <p align="center">
 
-Figure 7: KDE Summary
+Figure 5: KDE Summary
 
 </p>
 
