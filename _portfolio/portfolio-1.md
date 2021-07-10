@@ -145,5 +145,5 @@ Needless to say, my co-worker was overjoyed when I showed him the results – as
 ---
 
 
-**For a walkthrough of the code, please view the following hosted Jupyter notebooks [TBD], or view it in my Github repository. [TBD]**
+**For a walkthrough of the code, please view the following hosted Jupyter [Notebook](https://mybinder.org/v2/gh/PeterDefnet/Measurement-of-Interparticle-Distance/main?filepath=Notebooks/Interparticle%20Distance%20of%20Direct%20Neighbors.ipynb), or view it on [Github](https://github.com/PeterDefnet/Measurement-of-Interparticle-Distance/blob/main/Notebooks/Interparticle%20Distance%20of%20Direct%20Neighbors.ipynb).**
 
