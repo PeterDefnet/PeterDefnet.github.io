@@ -55,24 +55,16 @@ The script takes advantage of ambient light in the room to illuminate the backgr
 
 
 <p align="center">
-<img src="{{ site.url }}{{ site.baseurl }}/images/Spatial Map Images/Figure 1; First Frame.jpg" alt="Single Raw Frame" width="300">
+<img src="{{ site.url }}{{ site.baseurl }}/images/Spatial Map Images/New Figure 1; Raw Frame, Avg 1-200.jpg" alt="Single Raw Frame and Average of Frames 1-200" width="600">
 </p>
 
 <p align="center">
 
-Figure 1: Single Raw Frame
+Figure 1: Single Raw Frame (Left), Average of Frames 1-200 (Right)
 
 </p>
 
-<p align="center">
-<img src="{{ site.url }}{{ site.baseurl }}/images/Spatial Map Images/Figure 2; Average of Frames 1-200.jpg" alt="Average of Frames 1-200" width="300">
-</p>
 
-<p align="center">
-
-Figure 2: Average of Frames 1-200
-
-</p>
 
 
 
