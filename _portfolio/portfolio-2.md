@@ -21,7 +21,7 @@ One exciting application was to use the array as an electrocatalyst screening pl
 
 
 
-
+&nbsp;
 
 
 ## Outline: 
@@ -38,13 +38,13 @@ The goal is to map the catalytic activities onto an image containing all electro
 
 2.	Extract light intensity data for each location. 
 
-3.	Clean each channel's data and map catalytic activity onto the electrode template.
+3.	Map catalytic activity onto the electrode template.
 
 
+&nbsp;
 
 
-
-## 1.  Create a blank template of each electrode position 
+## 1.  Create a Blank Template of Each Electrode Position 
 
 
 We first needed a blank template containing all electrode positions. I create the template using a short script written in ImageJ (a common software for handling video data). 
@@ -93,13 +93,13 @@ Selecting the appropriate thresholding algorithm is critical. A "local threshold
 
 
 
-## 2. Extract intensity data for each position. 
+## 2. Extract Intensity Data for Each Position. 
 
 ImageJ has a powerful function called "analyze particles", which can be used to extract the intensity data from each ROI across all frames. Each dataset is saved with a unique label identifying the position from which it came.
 
 
 
-## 3.  Clean each channel's data and map catalytic activity onto the electrode template.
+## 3.  Map Catalytic Activity onto the Electrode Template.
 
 We next import both the electrode template and the corresponding data into Python for further analysis. 
 
@@ -151,16 +151,12 @@ Figure 5: KDE Summary
 
 </p>
 
-
+&nbsp;
 
 
 ## Conclusion:
 
-The described pipeline is incredibly powerful for visualizing results from large electrode arrays. 
-
-It produces simple visualizations from data that would otherwise be quite challenging to interpret manually. 
-
-I anticipate this pipeline being recycled for future array-based projects, long after I leave the lab.  
+The described pipeline is incredibly powerful for visualizing results from large electrode arrays. It produces simple visualizations from data that would otherwise be quite challenging to interpret manually. I anticipate this pipeline being recycled for future array-based projects, long after I leave the lab.  
 
 
 
