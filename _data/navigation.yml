@@ -4,8 +4,7 @@ main:
   - title: "Portfolio"
     url: /portfolio/
       
-  - title: "Blog Posts"
-    url: /year-archive/
-    
-  - title: "Other Interests"
-    url: /hobbies/
+   
+  - title: "Resume"
+    url: /resume/
+
