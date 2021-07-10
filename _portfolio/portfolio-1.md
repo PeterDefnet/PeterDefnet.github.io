@@ -1,6 +1,7 @@
 ---
 title: "Quantifying Interparticle Spacing"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+excerpt: "Measuring the distances between 'direct' neighbors of randomly positioned particles.   <br/> 
+<img src='/images/interparticle_images/Figure 1; Darkfield Image of NPs png.png' width=500>"
 collection: portfolio
 ---
 
@@ -88,7 +89,7 @@ After relentless searching, I found a method called "Delaunay Tessellation", whi
 <p align="center">
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/interparticle_images/New Figure 4.png" alt="Delaunay Tessellation"
-width=700>
+width=600>
 
 </p>
 
@@ -103,13 +104,13 @@ Figure 4: Visualization of Delaunay Tessellation
 The SciPy implementation of Delaunay Tessellation outputs all connected vertices, and with a little logic, we can easily identify the points that are direct neighbors! Figure 5 below shows 2 more examples demonstrating the effectiveness of this method.
 
 <p align="center">
-<img src="{{ site.url }}{{ site.baseurl }}/images/interparticle_images/Figure 5a.png" alt="Example of Neighbor ID 1" width=800>
-<img src="{{ site.url }}{{ site.baseurl }}/images/interparticle_images/Figure 5b.png" alt="Example of Neighbor ID 2" width=800>
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/interparticle_images/New Figure 5.png" alt="Example of Neighbor ID 2" width=800>
 </p>
 
 <p align="center">
 
-Figure 5: Two Examples of a Central Nanoparticle (red) with its Direct Neighbors (solid yellow).  
+Figure 5: Two Examples of a Central Nanoparticle (Red) with its Direct Neighbors (Yellow)  
 
 </p>
 
