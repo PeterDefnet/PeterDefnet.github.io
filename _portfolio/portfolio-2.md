@@ -109,7 +109,7 @@ The labeled values are visualized below with a sequential colormap.
 
 
 <p align="center">
-<img src="{{ site.url }}{{ site.baseurl }}/images/Spatial Map Images/Figure 5; ROI Labeled Image.png" alt="ROI Labeled Image" width="500">
+<img src="{{ site.url }}{{ site.baseurl }}/images/Spatial Map Images/New Figure 3; ROI Labeled Figure.jpg" alt="ROI Labeled Image" width="500">
 </p>
 
 <p align="center">
@@ -124,7 +124,7 @@ Next, we analyze each trace, and identify the frame in which the light turns on.
 
 
 <p align="center">
-<img src="{{ site.url }}{{ site.baseurl }}/images/Spatial Map Images/Figure 6; Pt on Carbon.png" alt="Pt on Carbon" width="500">
+<img src="{{ site.url }}{{ site.baseurl }}/images/Spatial Map Images/New Figure 4; Pt on Carbon.png" alt="Pt on Carbon" width="500">
 </p>
 
 <p align="center">
@@ -142,7 +142,7 @@ A rainbow colormap is used to represent the catalytic activities. Here, red elec
 Lastly, I plot the KDE summarizing these values, for a more quantitative interpretation. 
 
 <p align="center">
-<img src="{{ site.url }}{{ site.baseurl }}/images/Spatial Map Images/Figure 7; KDE of Pt on Carbon.png" alt="KDE Summary" width="600">
+<img src="{{ site.url }}{{ site.baseurl }}/images/Spatial Map Images/New Figure 5;.png" alt="KDE Summary" width="600">
 </p>
 
 <p align="center">
