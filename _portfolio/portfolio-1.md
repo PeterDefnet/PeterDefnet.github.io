@@ -87,7 +87,7 @@ After relentless searching, I found a method called "Delaunay Tessellation", whi
 
 <p align="center">
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/interparticle_images/Figure 4; Delaunay Tessellation.png" alt="Delaunay Tessellation"
+<img src="{{ site.url }}{{ site.baseurl }}/images/interparticle_images/New Figure 4.png" alt="Delaunay Tessellation"
 width=700>
 
 </p>
