@@ -80,9 +80,30 @@ Figure 2: Average of Frames 1-200
 The image is then inverted (Figure #) to make each electrode white on a black background, and thresholded (Figure #) to convert the grayscale color scheme to binary (black/white. The electrode positions are labeled as 1's, and the background is labeled as 0's. 
 
 
-**Figure 3:** Inverted Frame
 
-**Figure 4:** Thresholded Frame
+<p align="center">
+<img src="{{ site.url }}{{ site.baseurl }}/images/Spatial Map Images/Figure 3; Inverted.jpg" alt="Inverted Frame" width="300">
+</p>
+
+<p align="center">
+
+Figure 3: Inverted Frame
+
+</p>
+
+
+<p align="center">
+<img src="{{ site.url }}{{ site.baseurl }}/images/Spatial Map Images/Figure 4; Threshold.jpg" alt="Threshold Frame" width="300">
+</p>
+
+<p align="center">
+
+Figure 4: Inverted Frame
+
+</p>
+
+
+
 
 
 Selecting the appropriate thresholding algorithm is critical. A "local threshold" gives better uniformity, yet it is still important to fine-tune the parameters to produce a clean result. More details are provided in the corresponding Jupyter notebook.
@@ -104,15 +125,32 @@ We label the electrode positions in the template with the same values used in Im
 The labeled values are visualized below with a sequential colormap. 
 
 
+<p align="center">
+<img src="{{ site.url }}{{ site.baseurl }}/images/Spatial Map Images/Figure 5; ROI Labeled Image.png" alt="ROI Labeled Image" width="500">
+</p>
 
-**Figure 5:** ROI Labeled Image
+<p align="center">
+
+Figure 5: ROI Labeled Image
+
+</p>
+
 
 
 Next, we analyze each trace, and identify the frame in which the light turns on. This value is converted to potential (the metric used for electrocatalysis), and subsequently mapped to its respective position on the template. 
 
 
+<p align="center">
+<img src="{{ site.url }}{{ site.baseurl }}/images/Spatial Map Images/Figure 6; Pt on Carbon.png" alt="Pt on Carbon" width="500">
+</p>
 
-**Figure 6:** Final Output
+<p align="center">
+
+Figure 6: Mapping Electrocatalyst Activities
+
+</p>
+
+
 
 
 A rainbow colormap is used to represent the catalytic activities. Here, red electrodes are better catalysts than blue. 
@@ -120,8 +158,17 @@ A rainbow colormap is used to represent the catalytic activities. Here, red elec
 
 Lastly, I plot the KDE summarizing these values, for a more quantitative interpretation. 
 
+<p align="center">
+<img src="{{ site.url }}{{ site.baseurl }}/images/Spatial Map Images/Figure 7; KDE of Pt on Carbon.png" alt="KDE Summary" width="600">
+</p>
 
-**Figure 7:** KDE Summary
+<p align="center">
+
+Figure 7: KDE Summary
+
+</p>
+
+
 
 
 ## Conclusion:
