@@ -1,6 +1,6 @@
 ---
-title: "Mapping Electrocatalyst Activities across >6000 Conditions Simultaneously"
-excerpt: "Short description of portfolio item number 2 <br/>
+title: "Spatial Mapping of Array Data"
+excerpt: "Mapping electrocatalyst activities across >6000 conditions simultaneously. <br/>
 <img src='/images/Spatial Map Images/New Figure 4; Pt on Carbon.png' width=500>"
 collection: portfolio
 ---
@@ -164,5 +164,4 @@ The described pipeline is incredibly powerful for interpreting results from larg
 
 
 ---
-
 
