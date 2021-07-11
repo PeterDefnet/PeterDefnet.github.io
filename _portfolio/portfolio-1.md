@@ -124,7 +124,7 @@ The last step is to find the Euclidean distance between each neighboring point, 
 <p align="center">
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/interparticle_images/Figure 6; Annotated KDE.png" alt="Annotated KDE"
-width=700>
+width=600>
 
 </p>
 
