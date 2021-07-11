@@ -1,6 +1,6 @@
 ---
 title: "Spatial Mapping of Array Data"
-excerpt: "Mapping electrocatalyst activities across >6000 conditions simultaneously. <br/>
+excerpt: "Mapping electrocatalyst activities from over 6000 conditions simultaneously. <br/>
 <img src='/images/Spatial Map Images/New Figure 4; Pt on Carbon.png' width=500>"
 collection: portfolio
 ---
