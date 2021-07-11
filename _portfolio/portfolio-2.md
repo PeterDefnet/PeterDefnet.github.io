@@ -1,9 +1,12 @@
 ---
-title: "Mapping Electrocatalyst Activity across >6000 Conditions Simultaneously"
+title: "Mapping Electrocatalyst Activities across >6000 Conditions Simultaneously"
 excerpt: "Short description of portfolio item number 2 <br/>
-<img src='/images/Spatial Map Images/Figure; Pt on Carbon.png' width=500>"
+<img src='/images/Spatial Map Images/New Figure 4; Pt on Carbon.png' width=500>"
 collection: portfolio
 ---
+
+
+**For a walkthrough of the code, please view the following hosted Jupyter [Notebook](https://nbviewer.jupyter.org/github/PeterDefnet/Spatially-Mapping-Bipolar-Microelectrode-Array-Data/blob/master/Notebooks/Spatial%20Mapping%20Updated%3B%20July%2010%2C%202021.ipynb) or [Github](https://github.com/PeterDefnet/Spatially-Mapping-Bipolar-Microelectrode-Array-Data/blob/master/Notebooks/Spatial%20Mapping%20Updated%3B%20July%2010%2C%202021.ipynb) folder.**
 
 
 
@@ -44,12 +47,12 @@ The goal is to map the catalytic activities onto an image containing all electro
 &nbsp;
 
 
-## 1.  Create a Blank Template of Each Electrode Position 
+## 1.  Create a Blank Template of Each Electrode Position:
 
 
 We first needed a blank template containing all electrode positions. I create the template using a short script written in ImageJ (a common software for handling video data). 
 
-The script takes advantage of ambient light in the room to illuminate the background such that averaging ~200 frames results in a clear image of all electrode positions. A single representative frame is shown in Figure #, while the result of the averaged frames is shown in Figure #. 
+The script takes advantage of ambient light in the room to illuminate the background such that averaging ~200 frames results in a clear image of all electrode positions. A single raw frame is shown on the left of Figure 1, while the result of the averaged frames is shown on the right of Figure 1. 
 
 
 
@@ -69,7 +72,7 @@ Figure 1: Single Raw Frame (Left), Average of Frames 1-200 (Right)
 
 
 
-The image is then inverted (Figure #) to make each electrode white on a black background, and thresholded (Figure #) to convert the grayscale color scheme to binary (black/white. The electrode positions are labeled as 1's, and the background is labeled as 0's. 
+The image is then inverted (Figure 2, left) to make each electrode white on a black background, and thresholded (Figure 2, right) to convert the grayscale color scheme to binary (black/white). Here, the electrode positions are labeled as 1's, and the background is labeled as 0.
 
 
 
@@ -79,7 +82,7 @@ The image is then inverted (Figure #) to make each electrode white on a black ba
 
 <p align="center">
 
-Figure 2: Inverted Frame (Left), Thresholded Image (Right)
+Figure 2: Inverted Average Frame (Left), Thresholded Image (Right)
 
 </p>
 
@@ -93,13 +96,13 @@ Selecting the appropriate thresholding algorithm is critical. A "local threshold
 
 
 
-## 2. Extract Intensity Data for Each Position. 
+## 2. Extract Intensity Data for Each Position:
 
 ImageJ has a powerful function called "analyze particles", which can be used to extract the intensity data from each ROI across all frames. Each dataset is saved with a unique label identifying the position from which it came.
 
 
 
-## 3.  Map Catalytic Activity onto the Electrode Template.
+## 3.  Map Catalytic Activity onto the Electrode Template:
 
 We next import both the electrode template and the corresponding data into Python for further analysis. 
 
@@ -114,7 +117,7 @@ The labeled values are visualized below with a sequential colormap.
 
 <p align="center">
 
-Figure 3: ROI Labeled Image
+Figure 3: ROI Labeled Image.
 
 </p>
 
@@ -131,12 +134,13 @@ Next, we analyze each trace, and identify the frame in which the light turns on.
 
 Figure 4: Mapping Electrocatalyst Activities
 
+
 </p>
 
 
 
 
-A rainbow colormap is used to represent the catalytic activities. Here, red electrodes are better catalysts than blue. 
+A rainbow colormap is used to represent the catalytic activities. Here, red electrodes are more active catalysts than blue electrodes. 
 
 
 Lastly, I plot the KDE summarizing these values, for a more quantitative interpretation. 
@@ -147,7 +151,7 @@ Lastly, I plot the KDE summarizing these values, for a more quantitative interpr
 
 <p align="center">
 
-Figure 5: KDE Summary
+Figure 5: KDE Summary of Catalytic Activities
 
 </p>
 
@@ -156,7 +160,9 @@ Figure 5: KDE Summary
 
 ## Conclusion:
 
-The described pipeline is incredibly powerful for visualizing results from large electrode arrays. It produces simple visualizations from data that would otherwise be quite challenging to interpret manually. I anticipate this pipeline being recycled for future array-based projects, long after I leave the lab.  
+The described pipeline is incredibly powerful for interpreting results from large electrode arrays. It produces simple visualizations from data that would otherwise be quite challenging to interpret manually. I anticipate the pipeline being recycled for future array-based projects, long after I leave the lab.  
 
+
+---
 
 
