@@ -12,7 +12,7 @@ I graduated with a Ph.D. in Analytical Chemistry from Bo Zhang's Lab at the Univ
 
 Over the COVID lockdowns (starting March 2020) I taught myself to code in Python, and built multiple data analysis pipelines for my group's research.
 
-I have posted the code and descriptions for some of these projects here in the "Portfolio" Tab. 
+I have posted the code and descriptions for some of these projects here in the "Python Projects" Tab. 
 These include: 
 - Spatially Mapping Redox Activity from Microelectrode Arrays [Link](https://peterdefnet.github.io/portfolio/portfolio-2/)
 - Characterizing Nanoparticle Arrays with Computer Vision Methods [Link](https://peterdefnet.github.io/portfolio/portfolio-1/)
