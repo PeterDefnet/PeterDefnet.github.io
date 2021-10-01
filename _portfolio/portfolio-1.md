@@ -3,6 +3,7 @@ title: "Quantifying Interparticle Spacing"
 excerpt: "Measuring the distances between 'direct' neighbors of randomly positioned particles.   <br/> 
 <img src='/images/interparticle_images/Figure 1; Darkfield Image of NPs png.png' width=500>"
 collection: portfolio
+
 ---
 
 
