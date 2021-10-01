@@ -14,8 +14,8 @@ Over the COVID lockdowns (starting March 2020) I taught myself to code in Python
 
 I have posted the code and descriptions for some of these projects here in the "Portfolio" Tab. 
 These include: 
-- [Spatially Mapping Redox Activity from Microelectrode Arrays](https://peterdefnet.github.io/portfolio/portfolio-2/)
-- [Characterizing Nanoparticle Arrays with Computer Vision Methods](https://peterdefnet.github.io/portfolio/portfolio-1/)
+- Spatially Mapping Redox Activity from Microelectrode Arrays[Link](https://peterdefnet.github.io/portfolio/portfolio-2/)
+- Characterizing Nanoparticle Arrays with Computer Vision Methods[Link](https://peterdefnet.github.io/portfolio/portfolio-1/)
 
 
 
