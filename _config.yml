@@ -229,8 +229,8 @@ defaults:
       comments: true
   # _portfolio
   - scope:
-      path: ""
-      type: portfolio
+      path: "/home/peter/Desktop/github io repo oct 2021/PeterDefnet.github.io/files/Defnet CV; October 2021.pdf"
+      type: CV
     values:
       layout: single
       author_profile: true
